@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <header id="about">
+        <div class="wrap">
+            <h1>Tip Calculator</h1>
+            <p>Lets get tipsy</p>
+        </div> 
+    </header>
+    <main>
+        <section id="calculator" class="calculator">
+            <form action="" method="GET" class="calculator">
+                <div class="bill">
+                    <label for="bill">Bill</label>
+                    <input type="number" name="bill" placeholder="0.00" id="bill-input" required>
+                </div>
+                <div class="tip">
+                    <label for="tip">Tip %</label>
+                    <input type="number" min="1" max="100" step="any" name="tip" placeholder="20%" id="tip-input" class="tip-input" required>
+                </div>
+                <div class="guests">
+                    <label for="guests">Guests</label>
+                    <input type="number" name="guests" placeholder="1" id="guests-input" required>
+                </div>
+                <div class="submit">
+                    <button type="submit" name="submit" id="submit" class="button">Calculate</button>
+                </div>
+            </form>
+        </section>
+        <section id="results" class="results">
+            <div class="calc-tip">
+                <h2>Tip</h2>               
+            </div>
+            <div class="total-bill">
+                <h2>Total</h2>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
