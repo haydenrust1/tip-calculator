@@ -1,1 +1,3 @@
-This is a tip calculator to assist you in discovering the accurate amount you should pay as a tip!
+This is my first JavaScript project that I completed all on my own! (with the help of google of course ;) ).
+My app is a tip calculator that will compute the correct amount you should pay as a tip!
+Happy tipping everyone!
